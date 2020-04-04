@@ -1,0 +1,48 @@
+{
+	"type": "DoubleTurret",
+	"name": "Compact Doombringer",
+	"description": "Really strong.",
+	"health": 2400,
+	"size": 2,
+	"reload": 12.0,
+	"range": 360,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0.1,
+	"rotatespeed": 24,
+	"ammo": {
+		"titanium": {
+			"speed": 8.0,
+			"damage": 88.0,
+			"bulletWidth": 20,
+			"bulletHeight": 32,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 1
+		},
+                "red-thorium": {
+			"speed": 11.0,
+			"damage": 132.5,
+			"bulletWidth": 22,
+			"bulletHeight": 36,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+		"plastanium": {
+			"speed": 11.0,
+			"damage": 115.0,
+			"bulletWidth": 21,
+			"bulletHeight": 34,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+		
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount": 750 },
+                { "item": "red-thorium", "amount": 200 },
+	],
+	"category": "turret",
+	"research": "arc"
+}

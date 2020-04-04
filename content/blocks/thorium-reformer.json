@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter",
+	"name": "Thorium Reformer",
+	"description": "This structure uses thorium and slag to make red thorium.",
+	"liquidCapacity": 50,
+	"itemCapacity": 50,
+	"outputItem": {"item": "red-thorium", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.9,
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 3 }
+			]
+		},
+		"liquid": {
+			"liquid": "slag",
+			"amount": 0.02
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 250 },
+		{ "item": "thorium", "amount": 80 },
+		{ "item": "graphite", "amount": 150 }
+	],
+	"category": "crafting",
+	"research": "water-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

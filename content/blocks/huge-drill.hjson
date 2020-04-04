@@ -1,0 +1,22 @@
+name: Huge Drill
+description: ITS HUUUUGE.
+type: Drill
+size: 6
+tier: 4
+drillTime: 200
+consumes: {
+  power: 5
+  liquid: {
+    liquid: cryofluid
+    amount: 0.05
+    booster: true
+    optional: true
+  }
+}
+requirements: [
+  titanium/800
+  lead/2000
+  graphite/1000
+]
+category: production
+research: blast-drill

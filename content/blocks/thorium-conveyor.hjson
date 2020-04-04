@@ -1,0 +1,11 @@
+type: Conveyor
+name: Thorium conveyor
+description: Speeeeed.
+requirements: [
+  copper/4
+  lead/4
+  thorium/4
+]
+category: distribution
+speed: 0.14
+research: titanium-conveyor

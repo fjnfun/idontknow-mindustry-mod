@@ -1,0 +1,8 @@
+type: material
+name: Red Thorium
+description: Super rare.
+hardness: 4
+cost: 4
+radioactivity: 3
+explosiveness: 2.4
+color: ffffaa
