@@ -1,0 +1,6 @@
+name: "I-have-no-idea"
+displayName: "I have no idea" //what displays in the mod selection menu
+author: "Sky4ce09, better known as cyanide"
+description: "Let's fire missiles using overpowered turrets."
+version: "idk, maybe 1.1.0"
+minGameVersion: "104.3"
