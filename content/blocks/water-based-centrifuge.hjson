@@ -6,7 +6,7 @@
 	"outputItem": concentrated-red-thorium/1
 	"outputLiquid": {
  	    "liquid": "explosive-liquid"
- 	    "amount": 1
+ 	    "amount": 12
 	}
 	"size": 4,
 	"hasPower": true,
