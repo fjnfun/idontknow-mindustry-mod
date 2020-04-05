@@ -1,0 +1,6 @@
+type: resource
+name: Concentrated Red Thorium
+description: Usable for power generation.
+radioactivity: 9
+explosiveness: 0.07
+color: ffff00
