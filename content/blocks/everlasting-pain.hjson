@@ -1,0 +1,61 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Everlasting Pain",
+	"description": "One extremely strong artillery turret.",
+	"targetAir": false,
+	"targetGround": true,
+	"health": 1700,
+	"size": 3,
+	"inaccuracy": 20,
+	"reload": 310,
+	"shots": 7,
+	"recoil": 3,
+	"ammoUseEffect": "shellEjectBig",
+	"shootCone": 180,
+	"rotateSpeed": 10,
+	"range": 420,
+	"ammo": {
+		"missile": {
+			"speed": 2,
+			"damage": 184,
+			"bulletWidth": 16,
+			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"effects": "burning",
+			"homingRange":180,
+			"homingPower":15,
+			"splashDamage": 153
+			"splashDamageRadius": 100
+			"effects": "frag"
+			"ammoMultiplier": 5,
+			"frontColor": "ffffff",
+			"backColor": "ffffff"
+		},
+		"red-thorium": {
+			"speed": 6,
+			"damage": 157,
+			"bulletWidth": 16,
+			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"splashDamage": 55
+			"splashDamageRadius": 64
+			"effects": "burning",
+			"ammoMultiplier": 1,
+			"frontColor": "ffeeee",
+			"backColor": "ffffff"
+		}
+	},
+	"requirements": [
+		{ "item": "red-thorium", "amount": 300 },
+		{ "item": "copper", "amount": 1200 },
+		{ "item": "graphite", "amount": 350 },
+		{ "item": "thorium", "amount": 300 },
+		{ "item": "plastanium", "amount": 800 },
+		{ "item": "surge-alloy", "amount": 400 }
+	],
+	"category": "turret",
+	"research": "ripple",
+	"shootSound": "shootSnap"
+}

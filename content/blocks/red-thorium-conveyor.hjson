@@ -1,0 +1,12 @@
+type: Conveyor
+name: Red Thorium Conveyor
+description: EXTREME SPEEEEEEEEEEEEEEEEEEEEEEEED.
+requirements: [
+  metaglass/4
+  graphite/4
+  thorium/2
+  red-thorium/4
+]
+category: distribution
+speed: 0.20
+research: titanium-conveyor
