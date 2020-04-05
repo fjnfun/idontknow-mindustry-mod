@@ -4,45 +4,51 @@
 	"description": "Really strong.",
 	"health": 2400,
 	"size": 2,
-	"reload": 12.0,
-	"range": 360,
+	"reload": 24,
+	"range": 330,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0.1,
 	"rotatespeed": 24,
 	"ammo": {
 		"titanium": {
 			"speed": 8.0,
-			"damage": 88.0,
+			"damage": 135.0,
 			"bulletWidth": 20,
 			"bulletHeight": 32,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 1
+			"ammoMultiplier": 1,
+			"effect": "freeze"
 		},
                 "red-thorium": {
 			"speed": 11.0,
-			"damage": 132.5,
+			"damage": 305,
 			"bulletWidth": 22,
 			"bulletHeight": 36,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
+			"splashDamage": 34,
+			"splashDamageRadius": 40
+			"ammoMultiplier": 1
 		},
-		"plastanium": {
-			"speed": 11.0,
-			"damage": 115.0,
+		"missile": {
+			"speed": 10.0,
+			"damage": 261,
 			"bulletWidth": 21,
 			"bulletHeight": 34,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"ammoMultiplier": 2
+			"splashDamage": 138,
+			"splashDamageRadius": 53,
+			"ammoMultiplier": 3,
+			"effect": "frag"
 		},
 		
 	},
 	"requirements": [
 		{ "item": "plastanium", "amount": 750 },
-                { "item": "red-thorium", "amount": 200 },
+                { "item": "red-thorium", "amount": 250 },
 	],
 	"category": "turret",
-	"research": "arc"
+	"research": "spectre"
 }
