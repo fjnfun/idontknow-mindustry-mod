@@ -1,0 +1,7 @@
+type: resource
+name: Missile
+description: The ultimate ammo.
+radioactivity: 1
+explosiveness: 11.5
+flammability: 8
+color: ffffaa

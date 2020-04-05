@@ -1,0 +1,7 @@
+type: material
+name: Salt
+description: Useful in some situations.
+hardness: 3
+cost: 2
+explosiveness: 0.15
+color: ffffaa
