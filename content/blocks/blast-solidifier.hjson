@@ -1,0 +1,26 @@
+{
+	"type": "GenericSmelter",
+	"name": "Blast Solidifier",
+	"description": "Brings explosive liquid to its solid state.",
+	"itemCapacity": 20,
+	"outputItem": "blast-compound/1"
+	"size": 2,
+	"hasPower": false,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "pulverize",
+	"consumes": {
+	        "liquid": {
+			"liquid": "explosive-liquid"
+			"amount": 0.5
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
