@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Sand-Salt Converter",
+	"description": "Converts sand to salt.",
+	"itemCapacity": 100,
+	"outputItem": {"item": "salt", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 0.1,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 3 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 40 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "titanium", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
