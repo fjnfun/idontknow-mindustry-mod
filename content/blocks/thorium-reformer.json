@@ -12,15 +12,15 @@
 	"craftTime": 20,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 0.9,
+		"power": 3.6,
 		"items": {
 			"items": [
-				{ "item": "thorium", "amount": 3 }
+				{ "item": "thorium", "amount": 5 }
 			]
 		},
 		"liquid": {
 			"liquid": "slag",
-			"amount": 0.02
+			"amount": 0.2
 		}
 	},
 	"requirements": [
