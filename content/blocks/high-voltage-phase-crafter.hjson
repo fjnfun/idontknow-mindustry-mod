@@ -1,0 +1,33 @@
+{
+"type": "GenericSmelter",
+	"name": "High Voltage Phase Crafter",
+	"description": "Uses insane laser techs to make a lot of phase from just raw red thorium! Stores items very well, too!",
+	"itemCapacity": 250,
+	"outputItem": phase-fabric/2
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 18,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 60,
+		"items": {
+			"items": [
+				{ "item": "red-thorium", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "red-thorium", "amount": 650 },
+		{ "item": "thorium", "amount": 800 },
+		{ "item": "silicon", "amount": 1250 }
+		{ "item": "phase-fabric", "amount": 250 }
+		{ "item": "surge-alloy", "amount": 250 }
+		{ "item": "plastanium", "amount": 750 }
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
