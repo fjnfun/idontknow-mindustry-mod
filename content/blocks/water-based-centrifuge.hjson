@@ -11,15 +11,15 @@
 	"size": 4,
 	"hasPower": true,
 	"hasLiquids": true,
-	"liquidCapacity": 300
 	"hasItems": true,
+	"liquidCapacity": 300
 	"craftTime": 54,
 	"updateEffect": "pulverize",
 	"consumes": {
-		"power": 0.9,
+		"power": 7.2,
 		"items": {
 			"items": [
-				{ "item": "red-thorium", "amount": 1 }
+				{ "item": "red-thorium", "amount": 3 }
 				{ "item": "salt", "amount": 8 }
 			]
 		},
