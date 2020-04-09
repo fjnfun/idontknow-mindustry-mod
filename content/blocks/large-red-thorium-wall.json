@@ -2,7 +2,7 @@
 	"name": "Large Red Thorium Wall",
 	"description": "And it even works underwater!",
 	"type": "Wall",
-	"health": 7200,
+	"health": 6000,
 	"size": 2,
 	"requirements": [
 		{ "item": "red-thorium", "amount": 48 }
