@@ -2,7 +2,7 @@
 	"name": "Red Thorium Wall",
 	"description": "Imagine what you can do with the power of Mind Wall!",
 	"type": "Wall",
-	"health": 1800,
+	"health": 1500,
 	"size": 1,
 	"requirements": [
 		{ "item": "red-thorium", "amount": 12 }
