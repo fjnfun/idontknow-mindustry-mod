@@ -1,0 +1,14 @@
+{
+	"name": "Blood Wall",
+	"description": "Just imagine 2000 health within a single tile!",
+	"type": "Wall",
+	"health": 2000,
+	"size": 1,
+	"requirements": [
+		{ "item": "blood-alloy", "amount": 8 }
+		{ "item": "red-thorium", "amount": 24 }
+		{ "item": "thorium", "amount": 48 }
+	],
+	"category": "defense",
+	"research": "thorium-wall"
+}

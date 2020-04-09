@@ -1,0 +1,14 @@
+{
+	"name": "Large Blood Wall",
+	"description": "The strongest wall.",
+	"type": "Wall",
+	"health": 8000,
+	"size": 2,
+	"requirements": [
+		{ "item": "blood-alloy", "amount": 32 }
+		{ "item": "red-thorium", "amount": 96 }
+		{ "item": "thorium", "amount": 192 }
+	],
+	"category": "defense",
+	"research": "thorium-wall"
+}
