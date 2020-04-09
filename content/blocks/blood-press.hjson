@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter",
+	"name": "Blood Press",
+	"description": "Makes blood alloy by having its period on surge alloy, wait what-",
+	"itemCapacity": 30,
+	"outputItem": {"item": "blood-alloy", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 360,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 12,
+		"items": {
+			"items": [
+				{ "item": "surge-alloy", "amount": 1 }
+				{ "item": "titanium", "amount": 2 }
+			]
+		}
+		"liquid": explosive-liquid/0.01
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 600 },
+		{ "item": "silicon", "amount": 300 },
+		{ "item": "red-thorium", "amount": 150 }
+		{ "item": "surge-alloy", "amount": 100 }
+		{ "item": "graphite", "amount": 400 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
