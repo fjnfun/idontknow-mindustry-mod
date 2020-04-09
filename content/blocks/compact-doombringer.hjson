@@ -5,7 +5,7 @@
 	"health": 2400,
 	"size": 2,
 	"reload": 24,
-	"range": 330,
+	"range": 300,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0.1,
 	"rotatespeed": 24,
@@ -21,33 +21,33 @@
 			"effect": "freeze"
 		},
                 "red-thorium": {
-			"speed": 11.0,
-			"damage": 305,
+			"speed": 9.0,
+			"damage": 219,
 			"bulletWidth": 22,
 			"bulletHeight": 36,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
 			"splashDamage": 34,
-			"splashDamageRadius": 40
+			"splashDamageRadius": 28
 			"ammoMultiplier": 1
 		},
 		"missile": {
-			"speed": 10.0,
-			"damage": 261,
+			"speed": 8.5,
+			"damage": 239,
 			"bulletWidth": 21,
 			"bulletHeight": 34,
 			"shootEffect": "shootSmall",
 			"smokeEffect": "shootSmallSmoke",
-			"splashDamage": 138,
-			"splashDamageRadius": 53,
+			"splashDamage": 121,
+			"splashDamageRadius": 37,
 			"ammoMultiplier": 3,
 			"effect": "frag"
 		},
 		
 	},
 	"requirements": [
-		{ "item": "plastanium", "amount": 750 },
-                { "item": "red-thorium", "amount": 250 },
+		{ "item": "plastanium", "amount": 600 },
+                { "item": "blood-alloy", "amount": 300 },
 	],
 	"category": "turret",
 	"research": "spectre"
