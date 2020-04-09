@@ -23,7 +23,7 @@
 		{ "item": "thorium", "amount": 800 },
 		{ "item": "silicon", "amount": 1250 }
 		{ "item": "phase-fabric", "amount": 250 }
-		{ "item": "surge-alloy", "amount": 250 }
+		{ "item": "blood-alloy", "amount": 250 }
 		{ "item": "plastanium", "amount": 750 }
 	],
 	"category": "crafting",
