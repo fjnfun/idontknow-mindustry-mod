@@ -3,18 +3,18 @@ description: ITS HUUUUGE.
 type: Drill
 size: 6
 tier: 4
-drillTime: 200
+drillTime: 190
 consumes: {
-  power: 5
+  power: 6
   liquid: {
     liquid: cryofluid
-    amount: 0.05
+    amount: 0.06
     booster: true
     optional: true
   }
 }
 requirements: [
-  titanium/800
+  titanium/1200
   lead/2000
   graphite/1000
 ]
