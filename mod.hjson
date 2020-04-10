@@ -2,5 +2,5 @@ name: "I-have-no-idea"
 displayName: "I have no idea" //what displays in the mod selection menu
 author: "Sky4ce09, better known as cyanide"
 description: "Let's produce higher-tier materials."
-version: "idk, maybe 1.3.0 (its probably stopping here but who knows)"
+version: "idk, maybe 1.3.1"
 minGameVersion: "who knows, i guess anything 104.3 and above works"
