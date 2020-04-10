@@ -8,17 +8,17 @@
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
-	"craftTime": 360,
+	"craftTime": 180,
 	"updateEffect": "pulverize",
 	"consumes": {
-		"power": 12,
+		"power": 24,
 		"items": {
 			"items": [
-				{ "item": "surge-alloy", "amount": 1 }
-				{ "item": "titanium", "amount": 2 }
+				{ "item": "surge-alloy", "amount": 2 }
+				{ "item": "titanium", "amount": 3 }
 			]
 		}
-		"liquid": explosive-liquid/0.01
+		"liquid": explosive-liquid/0.025
 	},
 	"requirements": [
 		{ "item": "lead", "amount": 600 },
