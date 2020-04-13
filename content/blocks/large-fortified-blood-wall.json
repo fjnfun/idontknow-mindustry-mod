@@ -5,9 +5,9 @@
 	"health": 8800,
 	"size": 2,
 	"requirements": [
-		{ "item": "blood-alloy", "amount": 32 }
+		{ "item": "blood-alloy", "amount": 48 }
 		{ "item": "red-thorium", "amount": 96 }
-		{ "item": "thorium", "amount": 192 }
+		{ "item": "green-duralumin", "amount": 192 }
 	],
 	"category": "defense",
 	"research": "thorium-wall"
