@@ -1,0 +1,14 @@
+{
+	"name": "Fortified Blood Wall",
+	"description": "yes",
+	"type": "Wall",
+	"health": 2200,
+	"size": 1,
+	"requirements": [
+		{ "item": "blood-alloy", "amount": 12 }
+		{ "item": "red-thorium", "amount": 24 }
+		{ "item": "green-duralumin", "amount": 48 }
+	],
+	"category": "defense",
+	"research": "thorium-wall"
+}

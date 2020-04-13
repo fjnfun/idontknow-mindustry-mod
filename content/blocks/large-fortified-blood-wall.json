@@ -1,0 +1,14 @@
+{
+	"name": "Large Blood Wall",
+	"description": "PLEASE",
+	"type": "Wall",
+	"health": 8800,
+	"size": 2,
+	"requirements": [
+		{ "item": "blood-alloy", "amount": 32 }
+		{ "item": "red-thorium", "amount": 96 }
+		{ "item": "thorium", "amount": 192 }
+	],
+	"category": "defense",
+	"research": "thorium-wall"
+}
