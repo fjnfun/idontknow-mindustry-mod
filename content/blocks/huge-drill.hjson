@@ -16,7 +16,7 @@ consumes: {
 requirements: [
   titanium/1200
   lead/2000
-  graphite/1000
+  duralumin/500
 ]
 category: production
 research: blast-drill
