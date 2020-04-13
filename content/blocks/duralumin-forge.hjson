@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Scrapper",
-	"description": "Smelts copper and aluminium to synthesize duralumin.",
+	"name": "Duralumin Forge",
+	"description": "Smelts copper and aluminium to receive duralumin.",
 	"itemCapacity": 20,
 	"outputItem": {"item": "duralumin", "amount": 8},
 	"size": 2,
