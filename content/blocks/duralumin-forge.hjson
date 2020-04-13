@@ -1,0 +1,33 @@
+{
+	"type": "GenericSmelter",
+	"name": "Scrapper",
+	"description": "Smelts copper and aluminium to synthesize duralumin.",
+	"itemCapacity": 20,
+	"outputItem": {"item": "duralumin", "amount": 8},
+	"size": 2,
+	health: 200,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.75,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 }
+				{ "item": "aluminium", "amount": 10 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 40 },
+		{ "item": "plastanium", "amount": 40 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "thorium", "amount": 30 }
+	],
+	"category": "crafting",
+	"research": "plastanium-compressor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

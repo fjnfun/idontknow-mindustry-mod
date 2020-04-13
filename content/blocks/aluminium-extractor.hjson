@@ -1,0 +1,25 @@
+{
+"type": "GenericSmelter",
+	"name": "Aluminium Extractor",
+	category: "production"
+	"description": "This dude extracts aluminium from the ground and your toilet. It is tainted dark red cause it had been intended to be a late-game block but that is not happening. Im not overworking myself with this update."
+	"itemCapacity": 10,
+	"outputItem": aluminium/1
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": false,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 1.5,
+	},
+	"requirements": [
+		{ "item": "red-thorium", "amount": 15 },
+		{ "item": "silicon", "amount": 80 }
+		{ "item": "titanium", "amount": 50 }
+	],
+	"research": "water-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.3
+}
