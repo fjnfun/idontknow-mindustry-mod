@@ -5,7 +5,7 @@
 	"health": 2400,
 	"size": 2,
 	"reload": 24,
-	"range": 300,
+	"range": 285,
 	"ammoUseEffect": "shellEjectSmall",
 	"inaccuracy": 0.1,
 	"rotatespeed": 24,
@@ -46,7 +46,7 @@
 		
 	},
 	"requirements": [
-		{ "item": "plastanium", "amount": 600 },
+		{ "item": "green-duralumin", "amount": 200 },
                 { "item": "blood-alloy", "amount": 300 },
 	],
 	"category": "turret",
