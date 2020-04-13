@@ -29,7 +29,7 @@
 		}
 	},
 	"requirements": [
-		{ "item": "lead", "amount": 250 },
+		{ "item": "duralumin", "amount": 250 },
 		{ "item": "thorium", "amount": 800 },
 		{ "item": "graphite", "amount": 150 }
 	],
