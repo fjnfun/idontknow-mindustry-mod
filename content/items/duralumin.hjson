@@ -1,0 +1,5 @@
+type: material
+name: Duralumin
+description: An alloy made mostly from aluminium and copper. Sorry, NoiTech devs. Building with this does exceptionally not take painful amounts of time.
+color: 999999
+cost: 0.3

@@ -1,0 +1,5 @@
+type: resource
+name: Aluminium
+description: DONT BE FOOLED, YOU CANT STORE THIS IN THE CORE
+color: 000000
+storableInCore: false
