@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Missile Factory",
+	"name": "Crucible",
 	"description": "Heats up to over 9000 degrees Celsius and melts duralumin, plastanium and phase fabric into green duralumin.",
 	"itemCapacity": 30,
 	"outputItem": {"item": "green-duralumin", "amount": 2},
