@@ -16,8 +16,8 @@
 	"range": 420,
 	"ammo": {
 		"missile": {
-			"speed": 2,
-			"damage": 184,
+			"speed": 3,
+			"damage": 171,
 			"bulletWidth": 16,
 			"bulletHeight": 21,
 			"shootEffect": "shootBig",
@@ -52,7 +52,7 @@
 		{ "item": "copper", "amount": 4000 },
 		{ "item": "graphite", "amount": 1250 },
 		{ "item": "thorium", "amount": 3000 },
-		{ "item": "plastanium", "amount": 800 },
+		{ "item": "green-duralumin", "amount": 800 },
 		{ "item": "surge-alloy", "amount": 1200 }
 	],
 	"category": "turret",
