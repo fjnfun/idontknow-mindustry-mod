@@ -2,7 +2,7 @@
 	"name": "Large Blood Wall",
 	"description": "The strongest wall.",
 	"type": "Wall",
-	"health": 8000,
+	"health": 7400,
 	"size": 2,
 	"requirements": [
 		{ "item": "blood-alloy", "amount": 32 }
