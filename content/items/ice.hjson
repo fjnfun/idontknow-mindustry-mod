@@ -1,0 +1,7 @@
+type: resource
+name: Ice
+description: Solid water.
+color: e0ffff
+storableInCore: false
+flammability: -1
+explosiveness: 0.3

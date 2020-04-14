@@ -1,0 +1,6 @@
+type: resource
+name: Obsidian
+description: Brittle substance fantastic as ammo for cyclones, ripples and such.
+color: 800080
+storableInCore: false
+explosiveness: 0.35
