@@ -4,7 +4,7 @@
 	"description": "Freezes water to get ice.",
 	"itemCapacity": 60,
 	"outputItem": {"item": "ice", "amount": 1},
-	"size": 3,
+	"size": 4,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
