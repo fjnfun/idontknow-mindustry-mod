@@ -1,0 +1,75 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Everlasting Pain",
+	"description": "One extremely strong artillery turret.",
+	"targetAir": false,
+	"targetGround": true,
+	"health": 1700,
+	"size": 3,
+	"inaccuracy": 20,
+	"reload": 310,
+	"shots": 7,
+	"recoil": 3,
+	"ammoUseEffect": "shellEjectBig",
+	"shootCone": 180,
+	"rotateSpeed": 10,
+	"range": 420,
+	"ammo": {
+		"missile": {
+			"speed": 3,
+			"damage": 171,
+			"bulletWidth": 16,
+			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"effects": "burning",
+			"homingRange":180,
+			"homingPower":15,
+			"splashDamage": 153
+			"splashDamageRadius": 108
+			"effects": "frag"
+			"ammoMultiplier": 5,
+			"frontColor": "ffffff",
+			"backColor": "ffffff"
+		},
+		"red-thorium": {
+			"speed": 6,
+			"damage": 157,
+			"bulletWidth": 16,
+			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"splashDamage": 55
+			"splashDamageRadius": 64
+			"effects": "burning",
+			"ammoMultiplier": 1,
+			"frontColor": "ffeeee",
+			"backColor": "ffffff"
+		}
+		"obsidian": {
+			"speed": 6.5,
+			"damage": 131,
+			"bulletWidth": 16,
+			"bulletHeight": 21,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+			"splashDamage": 38
+			"splashDamageRadius": 77
+			"effects": "burning",
+			"ammoMultiplier": 1,
+			"frontColor": "fe66ff",
+			"backColor": "ffffff"
+		}
+	},
+	"requirements": [
+		{ "item": "blood-alloy", "amount": 750 },
+		{ "item": "copper", "amount": 4000 },
+		{ "item": "graphite", "amount": 1250 },
+		{ "item": "thorium", "amount": 3000 },
+		{ "item": "green-duralumin", "amount": 800 },
+		{ "item": "surge-alloy", "amount": 1200 }
+	],
+	"category": "turret",
+	"research": "ripple",
+	"shootSound": "shootSnap"
+}

@@ -1,0 +1,66 @@
+{
+	"type": "DoubleTurret",
+	"name": "Compact Doombringer",
+	"description": "Really strong.",
+	"health": 2400,
+	"size": 2,
+	"reload": 24,
+	"range": 285,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0.1,
+	"rotatespeed": 24,
+	"ammo": {
+		"thorium": {
+			"speed": 8.0,
+			"damage": 141.2,
+			"bulletWidth": 20,
+			"bulletHeight": 32,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4,
+			"effect": "freeze"
+		},
+		"obsidian": {
+			"speed": 8.2,
+			"damage": 160.0,
+			"bulletWidth": 20,
+			"bulletHeight": 32,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 4,
+			"splashDamage": 11,
+			"splashDamageRadius": 46
+			"effect": "frag"
+		},
+                "red-thorium": {
+			"speed": 9.0,
+			"damage": 219,
+			"bulletWidth": 22,
+			"bulletHeight": 36,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"splashDamage": 34,
+			"splashDamageRadius": 29.5
+			"ammoMultiplier": 2
+		},
+		"missile": {
+			"speed": 8.5,
+			"damage": 239,
+			"bulletWidth": 21,
+			"bulletHeight": 34,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"splashDamage": 121,
+			"splashDamageRadius": 37,
+			"ammoMultiplier": 4,
+			"effect": "frag"
+		},
+		
+	},
+	"requirements": [
+		{ "item": "green-duralumin", "amount": 200 },
+                { "item": "blood-alloy", "amount": 300 },
+	],
+	"category": "turret",
+	"research": "spectre"
+}
