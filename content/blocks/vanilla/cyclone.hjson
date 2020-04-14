@@ -1,0 +1,79 @@
+ammo:
+	{ 
+	obsidian: 
+		{
+		damage: 13
+		speed: 5.2
+		bulletWidth: 7
+		bulletHeight: 8
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		effects: "frag"
+		reloadMultiplier: 1.75
+		splashDamage: 33
+		splashDamageRadius: 51
+		ammoMultiplier: 3
+		frontColor: e0e0e0
+		backColor: ffffff
+		}
+	metaglass: 
+		{
+		damage: 3
+		speed: 5.2
+		bulletWidth: 7
+		bulletHeight: 8
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		effects: "frag"
+		reloadMultiplier: 0.8
+		splashDamage: 30
+		splashDamageRadius: 33
+		ammoMultiplier: 5
+		frontColor: fefefe
+		backColor: ffffff
+		}
+	blast-compound: 
+		{
+		damage: 5
+		speed: 5
+		bulletWidth: 9
+		bulletHeight: 9
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		splashDamage: 35
+		splashDamageRadius: 57
+		ammoMultiplier: 4
+		frontColor: ff4040
+		backColor: 101010
+		}
+	plastanium: 
+		{
+		damage: 6
+		speed: 5
+		bulletWidth: 7
+		bulletHeight: 8
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		effects: "frag"
+		splashDamage: 25
+		splashDamageRadius: 63
+		ammoMultiplier: 4
+		frontColor: aaffaa
+		backColor: ffffff
+		}
+	surge-alloy:
+		{
+		damage: 7
+		speed: 5.5
+		bulletWidth: 7
+		bulletHeight: 8
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		effects: "shock"
+		splashDamage: 33
+		splashDamageRadius: 43
+		ammoMultiplier: 4
+		frontColor: ffffbb
+		backColor: ffffff
+		}
+	}

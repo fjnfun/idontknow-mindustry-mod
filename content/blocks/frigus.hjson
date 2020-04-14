@@ -1,0 +1,27 @@
+{
+	"type": "GenericSmelter",
+	"name": "Frigus",
+	"description": "Freezes water to get ice.",
+	"itemCapacity": 60,
+	"outputItem": {"item": "ice", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 3,
+		"liquid": water/0.5
+	},
+	"requirements": [
+		{ "item": "duralumin", "amount": 50 },
+		{ "item": "silicon", "amount": 30 },
+		{ "item": "thorium", "amount": 50 }
+		{ "item": "titanium", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "silicon-smelter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "Obsidian Former",
+	"description": "Forms obsidian using slag and ice.",
+	"itemCapacity": 10,
+	"outputItem": {"item": "obsidian", "amount": 2},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "ice", "amount": 2 }
+			]
+		}
+		"liquid": slag/0.1
+	},
+	"requirements": [
+		{ "item": "duralumin", "amount": 25 },
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "metaglass", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
