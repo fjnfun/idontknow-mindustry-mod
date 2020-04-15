@@ -3,7 +3,7 @@
 	"name": "RTG-Reverse",
 	"description": "Turns power into thorium. This process is expensive since thorium reactors exist and I have to balance my mod. Please use steams for power and dont blame me kthxbai.",
 	"itemCapacity": 20,
-	"outputItem": thorium/2
+	"outputItem": thorium/3
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": false,
@@ -11,11 +11,10 @@
 	"craftTime": 45,
 	"updateEffect": "pulverize",
 	"consumes": {
-		"power": 50,
+		"power": 80,
 		"items": {
 			"items": [
-				{ "item": "lead", "amount": 2 }
-				{ "item": "titanium", "amount": 3 }
+				{ "item": "lead", "amount": 1 }
 			]
 		},
 	},
