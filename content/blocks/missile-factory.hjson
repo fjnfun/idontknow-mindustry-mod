@@ -11,10 +11,10 @@
 	"craftTime": 120,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
-		"power": 4,
+		"power": 6,
 		"items": {
 			"items": [
-				{ "item": "green-duralumin", "amount": 1 }
+				{ "item": "duralumin", "amount": 2 }
 				{ "item": "blast-compound", "amount": 3 }
 				{ "item": "red-thorium", "amount": 2 }
 			]
