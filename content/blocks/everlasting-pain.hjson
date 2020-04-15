@@ -23,10 +23,10 @@
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"effects": "burning",
-			"homingRange":180,
-			"homingPower":15,
-			"splashDamage": 153
-			"splashDamageRadius": 108
+			"homingRange":45,
+			"homingPower":6,
+			"splashDamage": 171
+			"splashDamageRadius": 79
 			"effects": "frag"
 			"ammoMultiplier": 5,
 			"frontColor": "ffffff",
@@ -54,7 +54,7 @@
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
 			"splashDamage": 38
-			"splashDamageRadius": 77
+			"splashDamageRadius": 76
 			"effects": "burning",
 			"ammoMultiplier": 1,
 			"frontColor": "fe66ff",
