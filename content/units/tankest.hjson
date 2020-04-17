@@ -1,0 +1,40 @@
+type: GroundUnit
+name: Tankest
+health: 23500
+description: fa t
+drag: 0.345
+mass: 40
+hitSize: 28.5
+speed: 0.08
+rotatespeed: 0.05
+weapon:
+	{
+	name: tank-cannon
+	range: 60
+	length: 0.9
+	reload: 240
+	width: 12
+	recoil: 5
+	shake: 2
+	shots: 3
+	spacing: 0.5
+	alternate: true
+	shotdelay: 1
+	shootSound: shootBig
+	ejectEffect: shellEjectBig
+	bullet:
+		{
+		type: MissileBulletType
+		bulletWidth: 7
+		bulletHeight: 11
+		lifetime: 16
+		speed: 5
+		splashDamage: 10
+		splashDamageRadius: 15
+		damage: 25
+		frontColor: aaaaaa
+		backColor: fefeff
+		homingPower: 0.4
+		homingRange: 30
+		}
+	}
