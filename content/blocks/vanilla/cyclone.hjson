@@ -33,6 +33,7 @@ ammo:
 		frontColor: e0e0e0
 		backColor: ffffff
 		}
+	{
 	metaglass: 
 		{
 		damage: 3
