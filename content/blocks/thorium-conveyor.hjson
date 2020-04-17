@@ -1,6 +1,7 @@
 type: Conveyor
 name: Thorium conveyor
 description: Speeeeed.
+health: 120
 requirements: [
   copper/4
   lead/4
