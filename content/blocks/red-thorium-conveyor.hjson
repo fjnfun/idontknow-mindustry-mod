@@ -1,6 +1,7 @@
 type: Conveyor
 name: Red Thorium Conveyor
 description: EXTREME SPEEEEEEEEEEEEEEEEEEEEEEEED.
+health: 200
 requirements: [
   metaglass/4
   graphite/4
