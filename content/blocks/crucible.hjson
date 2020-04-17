@@ -14,9 +14,9 @@
 		"power": 12,
 		"items": {
 			"items": [
-				{ "item": "duralumin", "amount": 4 }
-				{ "item": "plastanium", "amount": 3 }
-				{ "item": "phase-fabric", "amount": 5 }
+				{ "item": "duralumin", "amount": 6 }
+				{ "item": "plastanium", "amount": 2 }
+				{ "item": "phase-fabric", "amount": 1 }
 			]
 		}
 	},
