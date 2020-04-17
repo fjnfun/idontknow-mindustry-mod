@@ -7,7 +7,7 @@
  	    "liquid": "explosive-liquid"
  	    "amount": 15
 	}
-	"size": 4,
+	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
 	"hasItems": true,
