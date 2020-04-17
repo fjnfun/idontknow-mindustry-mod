@@ -1,0 +1,38 @@
+{
+	"type": "GenericSmelter",
+	"name": "Instabilizer",
+	"description": "Turns oil into explosive liquid with the help of small amounts of sand.",
+	"itemCapacity": 50,
+	"outputLiquid": {
+ 	    "liquid": "explosive-liquid"
+ 	    "amount": 15
+	}
+	"size": 4,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"liquidCapacity": 300
+	"craftTime": 30,
+	"updateEffect": "pulverize",
+	"consumes": {
+		"power": 7.2,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 1 }
+			]
+		},
+		"liquid": {
+			"liquid": "oil",
+		"amount": 0.5
+		}
+	},
+	"requirements": [
+		{ "item": "duralumin", "amount": 25 },
+		{ "item": "lead", "amount": 75 },
+		{ "item": "silicon", "amount": 25 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
