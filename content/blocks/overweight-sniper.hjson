@@ -1,0 +1,67 @@
+{
+	"type": "ItemTurret",
+	"name": "Overweight Rifle",
+	"description": "who fed it so many bullets",
+	"health": 6000,
+	"size": 4,
+	"reload": 600,
+	"range": 420,
+	"ammoUseEffect": "shellEjectSmall",
+	"inaccuracy": 0,
+	"rotatespeed": 6,
+	"ammo": {
+		"blast-compound": {
+			"speed": 7.0,
+			"damage": 14210.5,
+			splashDamage: 210
+			splashDamageRadius: 2.4
+			"bulletWidth": 20,
+			"bulletHeight": 32,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2,
+		},
+		"salt": {
+			"speed": 6.7,
+			"damage": 532,
+			"bulletWidth": 20,
+			"bulletHeight": 32,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"splashDamage": 13,
+			"splashDamageRadius": 41
+			"effect": "frag"
+			reloadMultiplier: 5
+		},
+                "red-thorium": {
+			"speed": 8.0,
+			"damage": 17461,
+			"bulletWidth": 22,
+			"bulletHeight": 36,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"ammoMultiplier": 2
+		},
+		"missile": {
+			"speed": 8.5,
+			//takes anything down in one shot.
+			"damage": 25389,
+			"bulletWidth": 21,
+			"bulletHeight": 34,
+			"shootEffect": "shootSmall",
+			"smokeEffect": "shootSmallSmoke",
+			"splashDamage": 106,
+			"splashDamageRadius": 32,
+			"ammoMultiplier": 4,
+		},
+		
+	},
+	"requirements": [
+		{ "item": "green-duralumin", "amount": 2000 },
+                { "item": "blood-alloy", "amount": 600 },
+                { "item": "duralumin", "amount": 3000 },
+                { "item": "plastanium", "amount": 1500 },
+	],
+	"category": "turret",
+	"research": "meltdown"
+}
