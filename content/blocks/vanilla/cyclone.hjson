@@ -12,7 +12,24 @@ ammo:
 		reloadMultiplier: 1.75
 		splashDamage: 33
 		splashDamageRadius: 51
-		ammoMultiplier: 3
+		ammoMultiplier: 10
+		frontColor: e0e0e0
+		backColor: ffffff
+		}
+	{ 
+	missile: 
+		{
+		damage: 41
+		speed: 5
+		bulletWidth: 10
+		bulletHeight: 13
+		shootEffect: "shootSmall"
+		smokeEffect: "shootSmallSmoke"
+		reloadMultiplier: 0.7
+		splashDamage: 72
+		splashDamageRadius: 48
+		reloadMultiplier: 0.7
+		ammoMultiplier: 10
 		frontColor: e0e0e0
 		backColor: ffffff
 		}
