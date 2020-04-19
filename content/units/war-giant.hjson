@@ -1,0 +1,36 @@
+type: GroundUnit
+name: War Giant
+health: 125000
+description: the best of all giants
+drag: 0.35
+mass: 13
+hitsize: 47
+speed: 0.11
+weaponOffsetY: 16
+rotatespeed: 0.05
+weapon: {
+  name: mobile-silo
+  length: 2.9
+  reload: 30
+  width: 12
+  recoil: 6
+  shake: 1
+  shots: 5
+  spacing: 2
+  spread: 10
+  inaccuracy: 7
+  alternate: true
+  shootSound: shootBig
+  ejectEffect: shellEjectBig
+  bullet: {
+    type: MassDriverBolt
+    collidesTiles: true
+    bulletWidth: 7
+    bulletHeight: 11
+    lifetime: 30
+    speed: 6
+    damage: 125
+    frontColor: aaaaaa
+    backColor: fefeff
+  }
+}

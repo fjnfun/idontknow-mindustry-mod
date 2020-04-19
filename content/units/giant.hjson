@@ -1,0 +1,36 @@
+type: GroundUnit
+name: Giant
+health: 50000
+description: gigantic
+drag: 0.35
+mass: 13
+hitsize: 33
+speed: 0.14
+weaponOffsetY: 1
+rotatespeed: 0.1
+weapon: {
+  name: mobile-silo
+  length: 2.9
+  reload: 30
+  width: 12
+  recoil: 6
+  shake: 1
+  shots: 3
+  spacing: 2
+  spread: 10
+  inaccuracy: 7
+  alternate: true
+  shootSound: shootBig
+  ejectEffect: shellEjectBig
+  bullet: {
+    type: MassDriverBolt
+    collidesTiles: true
+    bulletWidth: 7
+    bulletHeight: 11
+    lifetime: 30
+    speed: 5
+    damage: 110
+    frontColor: aaaaaa
+    backColor: fefeff
+  }
+}
