@@ -3,8 +3,8 @@ itemCapacity: 3
 health: 200
 name: Green Duralumin Router
 requirements: 
-	{
+	[
 	green-duralumin/3
 	duralumin/9
 	plastanium/9
-	}
+	]
