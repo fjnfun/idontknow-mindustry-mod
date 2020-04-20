@@ -1,0 +1,9 @@
+type: Router
+itemCapacity: 2
+health: 120
+name: Plastanium Router
+requirements: 
+	{
+	copper/3
+	plastanium/3
+	}
