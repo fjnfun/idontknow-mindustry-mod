@@ -1,0 +1,36 @@
+type: GroundUnit
+name: Giant Cavalry
+health: 71000
+description: less damage for more movement speed and size. Prepare your close corridor turrets for THIS.
+drag: 0.32
+mass: 15
+hitsize: 37
+speed: 0.35
+weaponOffsetY: 1
+rotatespeed: 0.1
+weapon: {
+  name: mobile-silo
+  length: 2.9
+  reload: 20
+  width: 12
+  recoil: 6
+  shake: 1
+  shots: 3
+  spacing: 2
+  spread: 10
+  inaccuracy: 7
+  alternate: true
+  shootSound: shootBig
+  ejectEffect: shellEjectBig
+  bullet: {
+    type: MassDriverBolt
+    collidesTiles: true
+    bulletWidth: 7
+    bulletHeight: 11
+    lifetime: 60
+    speed: 5
+    damage: 95
+    frontColor: aaaaaa
+    backColor: fefeff
+  }
+}
