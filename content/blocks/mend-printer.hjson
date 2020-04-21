@@ -1,0 +1,26 @@
+type: mendProjector
+name: Mend Printer
+description: This mender-type defense block is designed to be used in the back of a line of defense due to its range. It's not particularly strong but it's a nice addition to have, especially on bigger maps.
+category: effect
+itemCapacity: 20
+consumes:
+    {
+    power: 12
+    }
+size: 4
+reload: 100
+range: 300
+healPercent: 2.5
+color: defff1
+phase: ffdda0
+phaseBoost: 0.5
+phaseRangeBoost: 90
+useTime: 120
+requirements:
+	[
+	duralumin/2000
+	silicon/500
+	surge-alloy/200
+	green-duralumin/1000
+	red-thorium/750
+	]
