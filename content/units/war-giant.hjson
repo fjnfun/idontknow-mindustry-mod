@@ -5,13 +5,13 @@ description: the best of all giants
 drag: 0.35
 mass: 13
 hitsize: 47
-speed: 0.11
+speed: 0.13
 weaponOffsetY: 16
 rotatespeed: 0.05
 weapon: {
   name: mobile-silo
   length: 2.9
-  reload: 30
+  reload: 18
   width: 12
   recoil: 6
   shake: 1
@@ -27,7 +27,7 @@ weapon: {
     collidesTiles: true
     bulletWidth: 7
     bulletHeight: 11
-    lifetime: 30
+    lifetime: 60
     speed: 6
     damage: 125
     frontColor: aaaaaa
