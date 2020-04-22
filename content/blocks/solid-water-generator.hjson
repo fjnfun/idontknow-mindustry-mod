@@ -1,0 +1,29 @@
+type: SingleTypeGenerator
+name: Solid Water Generator
+category: power
+description: Designed to make water sources actually useful, besides spore pod production.
+itemCapacity: 75
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+updateEffect: dooropenlarge
+powerProduction: 5
+itemDuration: 240
+consumes:
+	{
+	items: 
+		{
+		items: [
+			ice/4
+				]
+		}
+	}
+requirements: [
+  titanium/50
+  copper/40
+  lead/40
+]
+research: frigus
+idleSound: respawning
+idleSoundVolume: 0.3
