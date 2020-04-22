@@ -9,13 +9,13 @@ hasLiquids: false
 hasItems: true
 updateEffect: dooropenlarge
 powerProduction: 5
-itemDuration: 240
+itemDuration: 60
 consumes:
 	{
 	items: 
 		{
 		items: [
-			ice/4
+			ice/1
 				]
 		}
 	}
