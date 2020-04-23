@@ -1,0 +1,13 @@
+name: Sudoku Wall
+description: Please don't use this in campaign. It will completely ruin your resources.
+type: Wall
+health: 6000
+size: 1
+requirements: [
+  blood-alloy/320
+  red-thorium/960
+  green-duralumin/1920
+]
+buildCostMultiplier: 0.02
+category: defense
+research: despacito-wall

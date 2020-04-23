@@ -1,0 +1,13 @@
+name: Sudoku Ultima
+description: i give up
+type: Wall
+health: 24000
+size: 2
+requirements: [
+  blood-alloy/1280
+  red-thorium/3840
+  green-duralumin/7680
+]
+buildCostMultiplier: 0.05
+category: defense
+research: fortified-blood-wall

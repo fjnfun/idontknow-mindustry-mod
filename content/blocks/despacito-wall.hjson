@@ -1,0 +1,13 @@
+name: Despacito Wall
+description: Gucci version of the fortified blood wall. Is built really fast in comparison.
+type: Wall
+health: 3500
+size: 1
+requirements: [
+  blood-alloy/80
+  red-thorium/240
+  green-duralumin/480
+]
+buildCostMultiplier: 0.05
+category: defense
+research: thorium-wall
