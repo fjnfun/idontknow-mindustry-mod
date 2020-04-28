@@ -1,0 +1,6 @@
+"type": "resource"
+"name": "Red Thorium Crate"
+"description": "A crate with items. [red]Can't be stored in the core."
+"color": "000000"
+"radioactivity": "6.5"
+"explosiveness": "5"
