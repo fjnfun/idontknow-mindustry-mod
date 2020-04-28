@@ -1,0 +1,26 @@
+type: GenericCrafter
+name: Inverted Duralumin Packer
+description: Opens item crates.
+itemCapacity: 100
+size: 2
+hasPower: false
+hasLiquids: false
+hasItems: true
+craftTime: 15
+updateEffect: pulverize
+consumes: {
+  items: {
+    items: [
+      duralumin-crate/1
+    ]
+  }
+}
+requirements: [
+  titanium/15
+  lead/10
+]
+category: crafting
+research: container
+idleSound: respawning
+idleSoundVolume: 0.3
+outputItem: duralumin/50

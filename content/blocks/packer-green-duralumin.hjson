@@ -1,0 +1,27 @@
+type: GenericCrafter
+name: Green Duralumin Packer
+description: Uses little amounts of power to put a good amount of items into a crate.
+itemCapacity: 100
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 15
+updateEffect: pulverize
+consumes: {
+  power: 0.2
+  items: {
+    items: [
+      green-duralumin/50
+    ]
+  }
+}
+requirements: [
+  titanium/20
+  lead/20
+]
+category: crafting
+research: container
+idleSound: respawning
+idleSoundVolume: 0.3
+outputItem: green-duralumin-crate/1
