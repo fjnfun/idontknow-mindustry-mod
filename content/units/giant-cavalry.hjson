@@ -1,6 +1,6 @@
 type: GroundUnit
 name: Giant Cavalry
-health: 71000
+health: 73000
 description: less damage for more movement speed and size. Prepare your close corridor turrets for THIS.
 drag: 0.32
 mass: 15
